@@ -1,0 +1,9 @@
+name: AntiMobSpawn
+version: '${project.version}'
+main: net.craftsupport.antimobspawn.AntiMobSpawn
+api-version: '1.20'
+commands:
+  amsr:
+    description: "Use this command to reload AntiMobSpawn"
+    usage: "/amsr"
+    permission: "ams.reload"
